@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "shaderfolders",
+  "version": "${version}",
+  "name": "Shader Folders",
+  "description": "Позволяет раскладывать шейдерпаки Iris по папкам.",
+  "authors": ["you"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["shaderfolders.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.20.1",
+    "minecraft": "1.21.11",
+    "java": ">=21",
+    "iris": ">=1.10.0",
+    "sodium": "*"
+  }
+}
