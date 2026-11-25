@@ -2,6 +2,11 @@
   "required": true,
   "package": "com.example.shaderfolders.mixin",
   "compatibilityLevel": "JAVA_21",
-  "client": ["ShaderpackDirectoryManagerMixin"],
+  "client": [
+    "ShaderpackDirectoryManagerMixin",
+    "ShaderPackSelectionListMixin",
+    "ShaderPackEntryMixin",
+    "IrlShaderpacksMixin"
+  ],
   "injectors": { "defaultRequire": 1 }
 }
